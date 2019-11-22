@@ -35,8 +35,6 @@ def get_article(articles_urls):
             print('downloading the ' + str(index + 1) + '/' + str(len(articles_urls)) + ' article...')
             f.write(content)
 
-# PAGE = visit_page('http://laotiese.org/txtsex/index.html')
-# PAGE = visit_page('https://laotiese.org/xslz/index.html')
-PAGE = visit_page('https://laotiese.org/xsxa/index.html')
+PAGE = visit_page(${your_url_here})
 ARTICLE_URLS = get_article_urls(PAGE)
 get_article(ARTICLE_URLS)
